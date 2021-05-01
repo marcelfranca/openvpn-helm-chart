@@ -1,0 +1,20 @@
+apiVersion: v1
+description: This is my own version from a DEPRECATED chart. I may update or not.
+name: openvpn
+version: 4.2.5
+appVersion: 1.1.0
+deprecated: true
+icon: https://forums.openvpn.net/styles/openvpn/theme/images/ovpnlogo.png
+keywords:
+- openvpn
+- vpn
+- tunnel
+- network
+- service
+- connectivity
+- encryption
+home: https://openvpn.net/index.php/open-source.html
+sources:
+- https://github.com/jfelten/openvpn-docker
+- https://github.com/kubernetes/charts/tree/master/stable/openvpn
+- https://github.com/jfelten/helm-charts
